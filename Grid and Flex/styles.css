@@ -1,0 +1,106 @@
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 20%;
+  top: 40%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+  max-width: 50%;
+
+}
+
+.img1 {
+
+  min-height: 400px;
+  background-color: #FFA500;
+  padding: 4%;
+  position: relative;
+  flex: 1 1 15%;
+
+
+}
+
+.img2 {
+
+  height: 400px;
+  background-color: #1E5F74;
+  padding: 4%;
+  position: relative;
+  flex: 1 1 15%;
+
+}
+
+.img3 {
+
+  height: 400px;
+  background-color: #346751;
+  padding: 4%;
+  position: relative;
+  flex: 1 1 15%;
+
+}
+
+.box1, .box2, .box3 {
+  color: white;
+  line-height: 1.5;
+  text-align: left;
+
+
+}
+
+
+
+
+img {
+  margin-top: 5%;
+}
+
+
+.button {
+    border:none;
+    border-radius:13px;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 3%;
+    position: absolute;
+    bottom: 5%;
+    top: 85%;
+  }
+
+  .box1 > .button {
+    color: #FFA500;
+  }
+
+.box2  > .button {
+  color: #1E5F74;
+}
+
+.box3 > .button {
+  color: #346751;
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .img1, .img2, .img3 {
+    width: 100%;
+    margin: auto;
+  }
+
+}
