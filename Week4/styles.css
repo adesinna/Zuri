@@ -1,0 +1,118 @@
+body, html {
+  height: 90%;
+
+  background-image: url('images/bg-intro-desktop.png');
+
+}
+
+h3 {
+  margin: auto auto;
+}
+.container {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(0, 100%, 74%) ;
+  margin: 5% 10%;
+
+
+}
+
+.con {
+  display: flex;
+
+
+}
+
+.col-1 {
+  width: 30%;
+  padding: 3%;
+  color: white;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.h3 {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 5% 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+}
+
+.con {
+  width: 85%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 3%;
+}
+
+
+
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.last {
+  margin: 0 auto;
+  text-align: center;
+}
+
+span {
+  color: hsl(0, 100%, 74%);
+}
+@media (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+}
